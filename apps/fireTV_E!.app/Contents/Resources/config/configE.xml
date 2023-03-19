@@ -1,0 +1,442 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<appVars>
+		<hideCursor>true</hideCursor>
+		<fullScreen>true</fullScreen>
+		<testVideoURL>asset/video/output.mp4</testVideoURL>
+
+		<!--<isBright>true</isBright>
+		<bkgColor>0xdaf3ff</bkgColor>
+		<bkgColor>0x20264b</bkgColor>
+		<bkgColor>0x000000</bkgColor>
+		<bkgColor>0x676767</bkgColor>
+		<bkgColor>0x2f2f2f</bkgColor>
+		-->
+		
+		<isBright>false</isBright>
+		<bkgColor>0x101010</bkgColor>
+		<bkgImgURL>asset/image/backgrounds/colorOverlay.png</bkgImgURL>
+		<!--<bkgImgURL></bkgImgURL>-->
+
+		<lightBkgOpacity>0</lightBkgOpacity>
+		<darkBkgOpacity>0</darkBkgOpacity>
+		<overlayInitOpacity>50</overlayInitOpacity>
+		<homeBkgOpacity>50</homeBkgOpacity>
+
+		<isHomeMoving>false</isHomeMoving>
+		<homeBkgOffset>0</homeBkgOffset>
+
+		<globalNavPaneY>0</globalNavPaneY>
+		<heroPaneY>129</heroPaneY>
+		<shelvesPaneY>905</shelvesPaneY>
+		<detailHeroPaneY>0</detailHeroPaneY>
+		<detailShelvesPaneY>854</detailShelvesPaneY>
+		
+		<fontRelated></fontRelated>
+	</appVars>
+	
+	<globalNavigation>
+		<!-- offsetLogoX: offsetX between the logo and the 1st nav item, from the end of the logo to the beginning of the 1st item -->
+		<!-- offsetItemX: offsetX between the nav items, from the end of the previous item to the beginning of the next item -->
+		<logo x="200" y="23" >
+			<imgUrl>asset/image/brands/usa/logoUSA.png</imgUrl>
+		</logo>
+		<items x="379" y="44" font="Helvetica" offsetItemX="60">
+			<item>
+				<text>shows</text>
+				<page>showsPage</page>
+			</item>
+			<item>
+				<text>watchlist</text>
+				<page>watchlistPage</page>
+			</item>
+			<item>
+				<text>tools</text>
+				<page>settingsPage</page>
+			</item>
+			<item>
+				<text>search</text>
+				<page>searchPage</page>
+			</item>
+		</items>
+	</globalNavigation>
+	
+	<pages>
+		<homePage>
+			<heroPane>
+				<shows>
+					<show isFeatured="true">
+						<isBright>false</isBright>
+						<imgUrl>asset/image/brands/e/showDetails/totalDivas1920x1080.png</imgUrl>
+						<showTitle><![CDATA[Total Divas]]></showTitle>
+						<showDesc><![CDATA[Go behind the scenes with WWE's hottest<br>female wrestlers!]]></showDesc>
+						<seasonID>3</seasonID>
+						<episodeID>4</episodeID>
+						<showID>1</showID><!-- #1 -->		
+					</show>
+					<show isFeatured="true">
+						<isBright>false</isBright>
+						<imgUrl>asset/image/brands/e/showDetails/kwk1920x1080.png</imgUrl>
+						<showTitle><![CDATA[Keeping Up<br>with the Kardashians]]></showTitle>
+						<showDesc><![CDATA[Even though things are changing for the Kardashian-<br>Jenner family in ways they never expected, they're<br>determined to remember that family always comes first.]]></showDesc>
+						<seasonID>3</seasonID>
+						<episodeID>4</episodeID>
+						<showID>1</showID><!-- #2 -->	
+					</show>
+					<show isFeatured="true">
+						<isBright>false</isBright>
+						<imgUrl>asset/image/brands/e/showDetails/rbk1920x1080.png</imgUrl>
+						<showTitle><![CDATA[Revenge Body<br>with Khloé Kardashian]]></showTitle>
+						<showDesc><![CDATA[Welcome to Revenge Body, the show that is going to turn<br>lives around with the ultimate true and total makeover of<br>the exterior and interior.]]></showDesc>
+						<seasonID>3</seasonID>
+						<episodeID>4</episodeID>
+						<showID>3</showID><!-- #3 -->		
+					</show>
+				</shows>
+			</heroPane>
+	
+			<shelvesPane>
+
+				<titleFontSizeOut scale="0.7">28</titleFontSizeOut>
+				<titleFontSizeIn scale="1">40</titleFontSizeIn>
+
+				<categories>
+					<category>
+						<name>up next</name>
+						<episodes>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeTitle>Now That's a Lot of Schnitzel</episodeTitle>
+								<episodeDesc>For the Quickfire, Padma and Richard Blais inspire the chefs using Tasty online videos and challenge them to transform the most laborious dishes from their own menus into accessible thirty minute dishes for home cooks.</episodeDesc>
+								<seasonID>13</seasonID>
+								<episodeID>7</episodeID>
+								<showID>1</showID>	
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeTitle>Season13 Episode8 Title</episodeTitle>
+								<episodeDesc>Season13 Episode8 description goes here.</episodeDesc>
+								<seasonID>13</seasonID>
+								<episodeID>8</episodeID>
+								<showID>1</showID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeTitle>Season13 Episode9 Title</episodeTitle>
+								<episodeDesc>Season13 Episode9 description goes here.</episodeDesc>
+								<seasonID>13</seasonID>
+								<episodeID>9</episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Below Deck</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID>5</seasonID>
+								<episodeID>11</episodeID>
+								<showID>4</showID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+						</episodes>
+					</category>
+						<name>recently added</name>
+						<episodes>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+						</episodes>
+					<category>
+					</category>
+						<name>category 2</name>
+						<episodes>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+						</episodes>
+					<category>
+						<name>category 3</name>
+						<episodes>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+						</episodes>
+					</category>
+					<category>
+						<name>category 4</name>
+						<episodes>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+						</episodes>
+					</category>
+					<category>
+						<name>category 5</name>
+						<episodes>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission bto apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+						</episodes>
+					</category>
+					<category>
+						<name>watch it again</name>
+						<episodes>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+							<episode>
+								<imgUrl></imgUrl>
+								<showTitle>Top Chef</showTitle>
+								<episodeDesc>CIA bosses are furious that the mission to apprehend James Kendrick was apparently a failure. They instruct Michael to bring him to justice within 48 hours, or pay the price of failure. Sam and Jesse, dubious of Michael's intentions, use a tracker to follow him to a secret meeting with Kendrick and learn that their colleague has switched sides. </episodeDesc>
+								<episodeTitle></episodeTitle>
+								<seasonID></seasonID>
+								<episodeID></episodeID>
+							</episode>
+						</episodes>
+					</category>
+				</categories>
+			</shelvesPane>
+		</homePage>
+	
+		<showsPage>
+		</showsPage>
+	
+		<watchlistPage>
+		</watchlistPage>
+	
+		<settingsPage>
+		</settingsPage>
+	
+		<searchPage>
+		</searchPage>
+
+		<showDetailsPage>
+		</showDetailsPage>
+
+		<playerPage>
+		</playerPage>
+	</pages>
+</config>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<appVars>
+		<testVideoURL>asset/video/output.mp4</testVideoURL>
+		<hideCursor>true</hideCursor>
+		<fullScreen>true</fullScreen>
+		<globalNavPaneY>0</globalNavPaneY>
+		<heroPaneY>129</heroPaneY>
+		<shelvesPaneY>905</shelvesPaneY>
+		<detailHeroPaneY>0</detailHeroPaneY>
+		<detailShelvesPaneY>854</detailShelvesPaneY>
+	</appVars>
+	
+	<globalNavVars>
+	</globalNavVars>
+	
+	<heroVars>
+		<categories>
+			<category>
+			</category>
+		</categories>
+	</heroVars>
+	
+	<shelvesVars>
+		<categories>
+			<category>
+			</category>
+		</categories>
+	</shelvesVars>
+</config>
