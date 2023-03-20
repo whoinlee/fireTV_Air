@@ -14,4 +14,7 @@ Please download the latest Adobe Air Runtime from [<ins>here</ins>](https://airs
 
 #### 2. Prototypes in color
 
+![Alt text](/screenShots/color.jpg?raw=true 'NBC Fire TV')
+<br/>
+
 #### 3. Prototypes for various NBC brands
