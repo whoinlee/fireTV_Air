@@ -24,4 +24,4 @@ Please download the latest Adobe Air Runtime from [<ins>here</ins>](https://airs
 
 ##### - Bravo
 
-![Alt text](/screenShots/Bravo.jpg?raw=true 'Video Players')
+![Alt text](/screenShots/bravo.jpg?raw=true 'Video Players')
