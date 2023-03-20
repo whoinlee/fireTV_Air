@@ -10,15 +10,15 @@ Please download the latest Adobe Air Runtime from [<ins>here</ins>](https://airs
 #### 1. Prototypes in black and white
 
 ![Alt text](/screenShots/blackWhite.jpg?raw=true 'Fire TV Black and White')
-<br/>
+<br/><br/>
 
 #### 2. Prototypes in color
 
 ![Alt text](/screenShots/color.jpg?raw=true 'Fire TV Color')
-<br/><br/>
+<br/>
 
 ![Alt text](/screenShots/videoPlayer.jpg?raw=true 'Video Players')
-<br/>
+<br/><br/>
 
 #### 3. Prototypes for various NBC brands
 
