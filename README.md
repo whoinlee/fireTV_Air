@@ -14,11 +14,17 @@ Please download the latest Adobe Air Runtime from [<ins>here</ins>](https://airs
 
 #### 2. Prototypes in color
 
+##### - Home and Details Pages
+
 ![Alt text](/screenShots/color.jpg?raw=true 'Fire TV Color')
 <br/>
 
+##### - Video Player
+
 ![Alt text](/screenShots/videoPlayer.jpg?raw=true 'Video Players')
 <br/>
+
+##### - Search Page
 
 ![Alt text](/screenShots/search.jpg?raw=true 'Search')
 <br/><br/>
