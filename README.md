@@ -9,7 +9,7 @@ Please download the latest Adobe Air Runtime from [<ins>here</ins>](https://airs
 
 #### 1. Prototypes in black and white
 
-![Alt text](/screenShots/fireTVAir.jpg?raw=true 'NBC Fire TV')
+![Alt text](/screenShots/blackWhite.jpg?raw=true 'NBC Fire TV')
 <br/>
 
 #### 2. Prototypes in color
